@@ -1,4 +1,4 @@
-# # SLIDESHARE AND SIMILAR WEBSITE CONTENT DOWNLOADER
+# SLIDESHARE AND SIMILAR WEBSITE CONTENT DOWNLOADER
 
 - It's a web application that you can **download a PowerPoint presentation** as pptx from **Slideshare website** by using **link of presentation**. Made by **Next.js** and cheerio, node-fetch, pptxgen.js libraries.
 ## Features
