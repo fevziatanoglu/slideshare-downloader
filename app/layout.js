@@ -21,13 +21,11 @@ export const metadata = {
     "Save Presentations"
   ],
   technologiesUsed: {
-    frontend: ["HTML", "CSS", "JavaScript", "Bootstrap"],
-    backend: ["Node.js", "Express.js"],
-    database: "MongoDB",
+    frontend: ["HTML", "CSS", "JavaScript", "Tailwind" , "Nextjs"],
+    backend: ["Node.js",],
     apis: ["SlideShare API"],
-    additionalLibraries: ["Axios", "Cheerio"]
+    additionalLibraries: ["node-fetch", "cheerio" , "pptxgenjs"]
   },
-  license: "MIT License",
   features: [
     "Download SlideShare presentations as PDF or PowerPoint files",
     "User-friendly interface with simple navigation",

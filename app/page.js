@@ -14,7 +14,7 @@ export default function Home() {
     try {
       setLoading(true);
       // check is url slideshare link
-      if (!slideShareUrl.startsWith("https://www.slideshare.net/")) {
+      if (!slideShareUrl.startsWith("https://www.slideshare.net/") || !slideShareUrl.startsWith("http://www.slideshare.net/")) {
         // if not set error
         setError('Link have to starts with "https://www.slideshare.net". Please check again.');
         setSlideShareUrl('');
